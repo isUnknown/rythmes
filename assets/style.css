@@ -69,18 +69,7 @@ p {
     font-size: 1.5rem;
 }
 
-button {
-    width: 8rem;
-    font-size: 1.5rem;
-    border: 1px solid #fff;
-    padding: .5rem;
-    margin-bottom: 1rem;
-}
-
 /* ================= COMPOSITION ================= */
-.conteneurGlobal {
-    display: flex;
-}
 
 .conteneur {
     min-height: 100vh;
@@ -97,17 +86,106 @@ button {
 
 .conteneurTexte {
     width: 75vw;
+    margin-left: 0;
+    
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.conteneurTexte--centre {
+    margin-left: 12.5vw;
 }
 
 /* ================= RÉGLAGES ================= */
 
+.basculerPanneau {
+    width: 3rem;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    right: 25vw;
+    transform: scaleX(1) translateX(0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1rem;
+    font-weight: bold;
+
+    background-color: #fff;
+
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.chevron {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    transform: rotate(-45deg);
+}
+
+.basculerPanneau--ouvert {
+    transform: scaleX(-1);
+    right: 26vw;
+}
+
 .conteneurReglages {
+    position: fixed;
+    top: 0;
+    right: -25vw;
     width: 25vw;
-    background-color: #000;
+    transform: translateX(0);
+    border-left: 1px solid #000;
+
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.conteneurReglages--ouvert {
+    right: 0;
 }
 
 .conteneurReglages * {
-    color: #fff;
+    color: #000;
     display: flex;
     flex-direction: column;
+}
+
+.reglages {
+    width: 10rem;
+    height: 3rem;
+    overflow: hidden;
+    font-size: 1.5rem;
+    border: 1px solid #000;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenuBtn {
+    transform: translateY(0);
+
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.contenuBtn--action {
+    transform: translateY(-3rem);
+}
+
+.contenuBtn:first-child {
+    margin-bottom: 1rem;
 }
