@@ -1,0 +1,113 @@
+/* =================================== */
+/* ================= FONT FACES ================= */
+/* =================================== */
+
+@font-face {
+    font-family: 'swis721_light';
+    src: url('./fonts/swiss-721-light-webfont.woff2') format('woff2'),
+         url('./fonts/swiss-721-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swis721_medium';
+    src: url('./fonts/swiss-721-medium-bt-webfont.woff2') format('woff2'),
+         url('./fonts/swiss-721-medium-bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'swis721_roman';
+    src: url('./fonts/swiss-721-regular-webfont.woff2') format('woff2'),
+         url('./fonts/swiss-721-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* =================================== */
+/* ================= RESET ================= */
+/* =================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-family: Arial;
+    color: #000;
+}
+
+a, button {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+button {
+    width: 8rem;
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+/* ================= COMPOSITION ================= */
+.conteneurGlobal {
+    display: flex;
+}
+
+.conteneur {
+    min-height: 100vh;
+    padding: 6vw;
+    box-sizing: border-box;
+}
+
+/* ================= TEXTE ================= */
+
+* {
+    font-family: 'swis721_light';
+    font-weight: normal;
+}
+
+.conteneurTexte {
+    width: 75vw;
+}
+
+/* ================= RÉGLAGES ================= */
+
+.conteneurReglages {
+    width: 25vw;
+    background-color: #000;
+}
+
+.conteneurReglages * {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
