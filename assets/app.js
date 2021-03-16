@@ -161,6 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'origine':
                     texte.preparerPartition()
                     texte.installerPartition()
+                    reglages.rythme = 0
                     break
                 case 'couper':
                     reglages.couper()
