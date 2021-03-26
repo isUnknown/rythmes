@@ -4,15 +4,17 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rythmes textuels</title>
+        <title>Rythmes - <?= $page->title() ?></title>
         <link rel="stylesheet" href="<?= $kirby->url('assets') ?>/style.css">
         <script src="<?= $kirby->url('assets') ?>/app.js" defer ></script>
     </head>
     <body>
         <div class="conteneurGlobal">
-            <div class="conteneur conteneurTexte conteneurTexte--centre" data-origine="<?= $site->texte()->kt() ?>">
+            <div class="conteneur conteneurTexte conteneurTexte--centre cache"
+            data-origine="<?= $page->texte()->kt() ?>
+            ">
             </div>
-            <div class="conteneur conteneurReglages">
+            <div class="conteneur conteneurReglages conteneurReglages--dehors">
                 <h1>Rythme</h1>
                 <button class="basculerPanneau">
                     <span class="chevron"></span>

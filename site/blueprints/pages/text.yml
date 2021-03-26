@@ -1,0 +1,10 @@
+title: Texte
+
+sections:
+  texte:
+    type: fields
+    fields:
+      auteur:
+        type: text
+      texte:
+        type: textarea

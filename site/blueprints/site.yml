@@ -1,8 +1,7 @@
 title: Rythmes textuels
 
 sections:
-  texte:
-    type: fields
-    fields:
-      texte:
-        type: textarea
+  texts:
+    type: pages
+    template:
+      - text

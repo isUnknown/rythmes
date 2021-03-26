@@ -1,0 +1,12 @@
+Title: Lorem ipsum
+
+----
+
+Auteur: Lorem Ipsum
+
+----
+
+Texte:
+
+#Lorem Ipsum
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque libero numquam sequi dolorum aperiam hic asperiores illo, non quod ea accusantium fugit reiciendis sint inventore, animi aut ratione impedit. Atque.

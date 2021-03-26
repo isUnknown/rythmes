@@ -1,8 +1,1 @@
-Title: Site Title
-
-----
-
-Texte:
-
-#Beauté insignifiante
-*Qu’est-ce que la beauté ?*()() Ainsi s’intitule un texte de l’architecte Philippe Rahm, paru en 2020. On peut attendre d’un tel texte, à en lire seulement le titre, qu’il entretienne la question qu’il pose : « Qu’est-ce que la beauté ? » Entretenir une question, c’est-à-dire l’ouvrir et la maintenir ouverte, et se tenir dans son ouverture.() Ce n’est cependant pas d’un tel entretien – travail sans doute plus proprement philosophique – qu’il s’agit cette fois. Ce texte est celui d’un architecte. Il raisonne de façon rigoureuse à partir de sens autorisés dans le domaine de l’architecture. Il s’agit moins d’entretenir, autrement dit d’ouvrir la question que de rappeler une réponse que des architectes y déjà ont apporté.()() Pour ce faire, Philippe Rahm s’appuie explicitement sur une histoire faite de définitions auparavant installées par d’autres que lui et qu’il respecte. Re-specter signifie littéralement regarder en arrière. En l’occurence, Philippe Rahm regarde bel et bien en arrière, dans le passé de l’architecture. Il respecte l’architecture. Son texte est donc historiquement soutenu, appuyé sur un ensemble d’écrits et de faits préexistants, fondé sur du déjà-là, du déjà-écrits et déjà-faits. Il déduit une conclusion à partir de prémisses qui appartiennent au passé de l’architecture, à sa culture. L’architecte Philippe Rahm conclut logiquement, en somme, une histoire de l’architecture, sa pratique.
+Title: Rythmes
